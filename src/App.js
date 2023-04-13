@@ -1,0 +1,10 @@
+
+function App() {
+  return (
+    <div className="App">
+      <p>text</p>
+    </div>
+  );
+}
+
+export default App;
