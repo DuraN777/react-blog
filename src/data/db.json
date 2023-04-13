@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Politics",
+      "body": "Inferiors revolt in order that they may be equal, and equals that they may be superior. Such is the state of mind which creates revolutions.",
+      "author": "Aristotle",
+      "id": 1
+    },
+    {
+      "title": "Dogs are philosophers",
+      "body": "Why, a dog, whenever he sees a stranger, is angry; when an acquaintance, he welcomes him, although the one has never done him any harm, nor the other any good. Did this never strike you as curious? The matter never struck me before; but I quite recognise the truth of your remark. And surely this instinct of the dog is very charming;—your dog is a true philosopher. Why? Why, because he distinguishes the face of a friend and of an enemy only by the criterion of knowing and not knowing. And must not an animal be a lover of learning who determines what he likes and dislikes by the test of knowledge and ignorance?",
+      "author": "Plato",
+      "id": 2
+    }
+  ]
+}
