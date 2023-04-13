@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "About Man",
+      "body": "The man who shuns and fears everything and stands up to nothing becomes a coward; the man who is afraid of nothing at all, but marches up to every danger becomes foolhardy. Similarly the man who indulges in pleasure and refrains from none becomes licentious (akolastos); but if a man behaves like a boor (agroikos) and turns his back on every pleasure, he is a case of insensibility. Thus temperance and courage are destroyed by excess and deficiency and preserved by the mean.",
+      "author": "Aristotle",
+      "id": 1
+    },
+    {
+      "title": "Power of Words",
+      "body": "Words have a magical power. They can bring either the greatest happiness or deepest despair; they can transfer knowledge from teacher to student; words enable the orator to sway his audience and dictate its decisions. Words are capable of arousing the strongest emotions and prompting all men's actions.",
+      "author": "Sigmund Freud",
+      "id": 2
+    }
+  ]
+}
