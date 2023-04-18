@@ -8,6 +8,10 @@
   color: #333;
 }
 
+input, label {
+  display: block;
+}
+
 :root {
   --blue: #1e90ff;
   --light-blue: #1ea5ff7c;
