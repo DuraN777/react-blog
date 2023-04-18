@@ -1,10 +1,13 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom"; 
+// used to be 'useHystory' but it was ugpraded in react-router-dom v6
 
 const Create = () => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   const [author, setAuthor] = useState('');
   const [isPending, setIsPending] = useState(false);
+  const hystory = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,6 +20,7 @@ const Create = () => {
       body: JSON.stringify(blog)
     }).then(() => {
       setIsPending(false);
+      hystory("/");
     })
   }
 
