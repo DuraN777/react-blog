@@ -19,11 +19,11 @@ const BlogDetails = () => {
       {isLoading && <div>Loading...</div>}
       {error && <div> {error} </div>}
       {blog && (
-        <article>
+        <article className="blog-details__article">
           <h2 className="blog-details__title">{blog.title}</h2>
           <p className="blog-details__author">Written by {blog.author} </p>
-          <p> {blog.body} </p>
-          <button onClick={handleClick}>Delete</button>
+          <p className="blog-details__text"> {blog.body} </p>
+          <button type="button" className="blog-details__btn" onClick={handleClick}>Delete</button>
         </article>
       )}
     </div>
