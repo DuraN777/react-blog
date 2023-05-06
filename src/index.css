@@ -12,6 +12,10 @@ input, label {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --blue: #1e90ff;
   --light-blue: #1ea5ff7c;
@@ -33,10 +37,11 @@ input, label {
 }
 .navbar__link {
   margin-left: 16px;
-  padding: 6px;
+  padding: 8px;
   text-decoration: none;
   background-color: var(--light-blue);
   border-radius: 8px;
+  font-weight: 600;
 }
 
 .content {
@@ -55,4 +60,16 @@ input, label {
 
 .blog-list__title {
   margin-bottom: 10px;
+}
+
+.blog-list__item {
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-list__item-title {
+  color: var(--blue);
+  margin-bottom: 5px;
 }
