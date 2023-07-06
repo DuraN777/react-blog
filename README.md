@@ -3,12 +3,25 @@
 React project emulating a blogging website.
 
 ## Start json-server to watch the database file
-The data is stored in db.json and can be accessed by starting JSON server in the developement mode to mimick a database.
+The data is stored in db.json and can be accessed by starting JSON server in the development  mode to mimic a database.
 
-While in developement mode and with local-developemen server running, open a new terminal in the CLI.
+While in development  mode and with local-development server running, open a new terminal in the CLI.
 In new terminal run: `npx json-server --watch data/db.json --port8000`
 
-JOSN server watches our db.json file and wraps it up in API endpoints. Now the website can fetch and post data from and to db.json
+JSON server watches our db.json file and wraps it up in API endpoints. Now the website can fetch and post data from and to db.json
+
+## What I have learned and used in this project
+
+- React Hooks
+    - useState and useEffect
+- React Router Dom
+    - Browser Router
+    - Link, Route and Routes
+    - useParams and useNavigate
+- Making custom hook
+- Conditional rendering in React
+- Get, post, delete with Fetch
+- Outputing lists in React
 
 
 ## From create-react-app
