@@ -6,7 +6,8 @@ React project emulating a blogging website.
 The data is stored in db.json and can be accessed by starting JSON server in the development  mode to mimic a database.
 
 While in development  mode and with local-development server running, open a new terminal in the CLI.
-In new terminal run: `npx json-server --watch data/db.json --port8000`
+In new terminal run: `npx json-server --watch data/db.json --port8000`.
+This will open a json-server on port 8000 with which the app can comunicate.
 
 JSON server watches our db.json file and wraps it up in API endpoints. Now the website can fetch and post data from and to db.json
 
@@ -44,3 +45,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
